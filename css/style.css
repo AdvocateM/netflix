@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #c70a0a ;
+  --text: #fff;
+}
+
+header {
+  background: url("https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/FRhe-bgimage.jpg") no-repeat center center/cover;
+  height: 100vh;
+  
+}
+
+body {
+  color: var(--text);
+  background: var(--primary-color);
+}
