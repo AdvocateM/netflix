@@ -1,2 +1,2 @@
 Netflix Clone By Advocate
-live on <h1>https://netflixclonebyadvocate.netlify.app</h1>
+live on <h3>https://netflixclonebyadvocate.netlify.app</h3>
