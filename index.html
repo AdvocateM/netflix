@@ -19,25 +19,30 @@
 
 <body>
   <!-- Banner -->
-  <header>
-   
-    <nav>
+  <section class="banner">
+    <!-- Navbar -->
+    <div class="nav">
       <img src="https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/GXWy-logo.png"
-        alt="Netflix Logo">
-      <a href="">Sign In</a>
-    </nav>
-    <h1>Unlimited movies, TV shows, and more</h1>
-    <h2>Watch anywhere. Cancel anytime.</h2>
-    <form>
-      <p>Ready to watch? Enter your email to create or restart your membership.</p>
-      <input type="email" name="email" placeholder="Email Address" id="subscription">
-      <input type="button" value="Get Started>">
-    </form>
+        alt="Netflix Logo" class="logo">
+      <a href="" class="login">Sign In</a>
+    </div>
+    <!-- Banner Text -->
+    <div class="banner-container">
+      <h1 class="h1">Unlimited movies, TV shows, and more</h1>
+      <h2>Watch anywhere. Cancel anytime.</h2>
+      <form>
+        <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+        <input type="email" name="email" placeholder="Email Address" id="subscription">
+        <button class="btn">Get Started >
+          </span></button>
+        </form>
+    </div>
     
-  </header>
+    </section>
+
   <!-- First Section After Banner-->
-  <section>
-    <div>
+  <section id="video">
+    <div id="attract">
       <h1>Enjoy on your TV.</h1>
       <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
     </div>
@@ -46,6 +51,9 @@
       <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
         type="video/mp4" />
     </video>
+    </div>
+    <div><img alt="" class="our-story-card-img"
+        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="our-story-card-img">
     </div>
   </section>
 

@@ -1,16 +1,117 @@
 :root {
   --primary-color: #000000;
-  --secondary-color: #c70a0a ;
+  --secondary-color: #e50914 ;
   --text: #fff;
 }
-
-header {
-  background: url("https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/FRhe-bgimage.jpg") no-repeat center center/cover;
-  height: 100vh;
-  
-}
-
+* {    letter-spacing: 0!important;}
 body {
   color: var(--text);
   background: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  /* font-size: 45px; */
+  font-size: 3.125rem;
+}
+
+/* Header */
+.banner {
+  background: url("https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/FRhe-bgimage.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  /* opacity: 0.3; */
+  z-index: -1;
+  padding: 35px;
+}
+
+
+/* Navbar */
+.navbar-container {
+  display: block;
+  
+}
+.logo {
+  width: 134px;
+  height: 36px;
+  fill: var(--secondary-color);
+  overflow: hidden;
+  margin-top: 0.5rem;
+  padding: 7px 17px;
+}
+
+.login {
+  border: var(--secondary-color) solid;
+  border-radius: 3px;
+  color: var(--text);
+  background: var(--secondary-color);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  padding: 7px 17px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btn a {
+  text-decoration: none;
+}
+.btn{
+  flex: 1 1 auto;
+  padding: 0.35rem 0;
+  text-align: center;
+  background: var(--secondary-color);
+  color: var(--text);
+  font-weight: 400;
+  font-size: large;
+  border: none;
+}
+.btn button {
+  border: var(--secondary-color) solid;
+  border-radius: 3px;
+  color: var(--text);
+  background: var(--secondary-color);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  padding: 7px 17px;
+}
+/* banner */
+.banner .banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px
+}
+
+.banner-container{
+  font-size: 20px;
+}
+
+.banner-container h3{
+  font-size: 1em;
+}
+
+.h1 {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+#subscription {
+
+}
+
+/* First Section After Banner */
+
+#video {
+  display: flex;
+}
+
+/* Footer */
+footer ul{
+  text-decoration: none;
+  list-style: none;
 }
